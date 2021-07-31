@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>602</width>
+    <height>363</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(45, 50, 55);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>10</y>
+      <width>581</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="currentIndex">
+        <number>1</number>
+       </property>
+       <widget class="QWidget" name="page_2">
+        <widget class="QLabel" name="label_3">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>10</y>
+           <width>231</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 36pt &quot;Nimbus Roman [UKWN]&quot;;</string>
+         </property>
+         <property name="text">
+          <string> Shorteners</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_4">
+         <property name="geometry">
+          <rect>
+           <x>150</x>
+           <y>10</y>
+           <width>81</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>Icons/ch.gif</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="ButtonBack">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>40</y>
+           <width>71</width>
+           <height>33</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Back</string>
+         </property>
+        </widget>
+        <widget class="QListWidget" name="listWidget">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>90</y>
+           <width>561</width>
+           <height>231</height>
+          </rect>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_5">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>170</y>
+           <width>521</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="mouseTracking">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 57 28pt &quot;URW Palladio L&quot;;
+color: qlineargradient(spread:pad, x1:0.038, y1:0.0568182, x2:1, y2:1, stop:0.355769 rgba(251, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string> Please Enter The Website Link</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_1">
+        <widget class="QLabel" name="label">
+         <property name="geometry">
+          <rect>
+           <x>220</x>
+           <y>10</y>
+           <width>231</width>
+           <height>71</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 36pt &quot;Nimbus Roman [UKWN]&quot;;</string>
+         </property>
+         <property name="text">
+          <string> Shorteners</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_2">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>10</y>
+           <width>91</width>
+           <height>61</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>Icons/logo.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="ButtonShort">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>130</y>
+           <width>91</width>
+           <height>33</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Make URL</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>130</x>
+           <y>80</y>
+           <width>321</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>321</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: italic 16pt &quot;Bitstream Charter&quot;;
+color: rgb(255, 217, 0);</string>
+         </property>
+         <property name="placeholderText">
+          <string>  Paste  Url Link</string>
+         </property>
+         <property name="cursorMoveStyle">
+          <enum>Qt::LogicalMoveStyle</enum>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="ButtonClear">
+         <property name="geometry">
+          <rect>
+           <x>240</x>
+           <y>130</y>
+           <width>101</width>
+           <height>33</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Clear</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="ButtonPaste">
+         <property name="geometry">
+          <rect>
+           <x>140</x>
+           <y>130</y>
+           <width>91</width>
+           <height>33</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Paste</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox">
+         <property name="geometry">
+          <rect>
+           <x>90</x>
+           <y>230</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="tabletTracking">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 20pt &quot;Bitstream Charter&quot;;
+gridline-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 0, 0, 255), stop:0.479904 rgba(255, 0, 0, 255), stop:0.522685 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>TinyUrl</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_2">
+         <property name="geometry">
+          <rect>
+           <x>40</x>
+           <y>270</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 20pt &quot;Bitstream Charter&quot;;
+gridline-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 0, 0, 255), stop:0.479904 rgba(255, 0, 0, 255), stop:0.522685 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>Chilp.It</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_3">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>230</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 20pt &quot;Bitstream Charter&quot;;
+gridline-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 0, 0, 255), stop:0.479904 rgba(255, 0, 0, 255), stop:0.522685 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>Clck.Ru</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="checkBox_4">
+         <property name="geometry">
+          <rect>
+           <x>400</x>
+           <y>270</y>
+           <width>151</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 italic 20pt &quot;Bitstream Charter&quot;;
+gridline-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 0, 0, 255), stop:0.479904 rgba(255, 0, 0, 255), stop:0.522685 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+         </property>
+         <property name="text">
+          <string>Da.Gd</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>ButtonPaste</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEdit</receiver>
+   <slot>paste()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>196</x>
+     <y>161</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>191</x>
+     <y>116</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ButtonClear</sender>
+   <signal>clicked()</signal>
+   <receiver>lineEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>302</x>
+     <y>147</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>296</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
